@@ -1,0 +1,19 @@
+package pSeguridad;
+
+public class Encriptar {
+
+	public static void main(String[] args) {
+		final int TAM = 4096;
+		String nombreFuente, nombreDestino;
+		
+		if(args.length<2) {
+			System.err.println("Especifica el nombre del fichero fuente y el destino");
+			return;
+		}
+		
+		nombreFuente = args[0];
+		nombreDestino = args[1];
+
+	}
+
+}

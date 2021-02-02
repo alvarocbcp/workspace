@@ -1,0 +1,15 @@
+import java.awt.*;
+public class Evento extends Panel implements ActionListener {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		
+	}
+	
+}
