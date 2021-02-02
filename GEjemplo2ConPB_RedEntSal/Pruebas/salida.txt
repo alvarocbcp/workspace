@@ -1,0 +1,27 @@
+Microsoft Windows [Versi¢n 10.0.19041.508]
+(c) 2020 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal>MKDIR NUEVO
+
+C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal>CD NUEVO
+
+C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal\NUEVO>ECHO CREO FICHERO > Mifichero.txt
+
+C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal\NUEVO>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 0A47-5D6F
+
+ Directorio de C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal\NUEVO
+
+09/10/2020  16:18    <DIR>          .
+09/10/2020  16:18    <DIR>          ..
+09/10/2020  16:18                15 Mifichero.txt
+               1 archivos             15 bytes
+               2 dirs  149.227.134.976 bytes libres
+
+C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal\NUEVO>DIRR
+
+C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal\NUEVO>ECHO FIN COMANDOS
+FIN COMANDOS
+
+C:\Users\alvar\OneDrive\Documentos\FP2\BLOQUE 3\workspace\GEjemplo2ConPB_RedEntSal\NUEVO>

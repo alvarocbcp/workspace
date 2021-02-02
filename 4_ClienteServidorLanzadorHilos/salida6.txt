@@ -1,0 +1,13 @@
+Cliente conectado
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: PRUEBA CON MAYUSCULAS 6
+Mensaje del servidor: .
+Mensaje de despedida del servidor: Adios del servidor

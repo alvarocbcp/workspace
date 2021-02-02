@@ -1,0 +1,3 @@
+Este es el primer documento de prueba,
+este archivo lo va a enviar el cliente al servidor y este ultimo tiene
+que recibirlo y hacer una copia.
