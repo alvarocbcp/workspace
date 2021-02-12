@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="C:\Users\AlvaroCB\AppData\Local\Temp\eoiF3AF.tmp\plugins\org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507" version="15.0.1"/>
+    <libraryInfo home="C:\Program Files\Java\jdk-11.0.10" version="11.0.10"/>
     <libraryInfo home="C:\Users\AlvaroCB\AppData\Local\Temp\eoiF3AF.tmp\plugins\org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507\jre" version="15.0.1"/>
     <libraryInfo home="C:\Program Files\Java\jre1.8.0_251" version="1.8.0_251">
         <bootpath>
