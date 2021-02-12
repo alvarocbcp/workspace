@@ -1,0 +1,30 @@
+package practica;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+public class ServidorUdp {
+	
+	public static void main(String args[]) {
+		
+		try {
+			
+			DatagramSocket socketUdp = new DatagramSocket(Constantes.PUERTO_DEL_CLIENTE);
+			
+			byte[] buffer = new byte[Constantes.buffer];
+			
+			while(true) {
+				//Construimos el DatagramPacket para recibir peticiones
+				DatagramPacket peticion = new DatagramPacket(buffer, buffer.length);
+				
+				//Leemos una peticion del DatagramSocket
+				socketUdp.receive(peticion);
+			}
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

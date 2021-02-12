@@ -1,0 +1,16 @@
+package practica;
+
+public class Constantes
+{
+    //Puerto de escucha del servidor
+    public static final int PUERTO_DEL_SERVIDOR=5556;
+    
+    //Puerto de escucha del cliente
+    public static final int PUERTO_DEL_CLIENTE=5557;
+    
+    //Host del servidor
+    public static final String HOST_SERVIDOR="localhost";
+    
+    //Host del cliente
+    public static final String HOST_CLIENTE="localhost";
+}

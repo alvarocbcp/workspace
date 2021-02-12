@@ -1,0 +1,19 @@
+package practica;
+
+import java.net.DatagramSocket;
+
+public class ServidorUdp {
+	
+	public static void main(String args[]) {
+		
+		try {
+			
+			DatagramSocket socketUdp = new DatagramSocket(Constantes.PUERTO_DEL_CLIENTE);
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

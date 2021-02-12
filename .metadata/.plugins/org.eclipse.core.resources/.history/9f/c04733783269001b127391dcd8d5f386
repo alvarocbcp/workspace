@@ -1,0 +1,40 @@
+package practica;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+
+public class ClienteUdp {
+	
+	public static void main(String args[]) {
+		
+		try {
+			DatagramSocket socketUdp = new DatagramSocket();
+			String mensajeStr = "Mensaje para el servidor";
+			byte[] mensaje = mensajeStr.getBytes();
+			InetAddress hostServer = InetAddress.getByName(Constantes.HOST_SERVIDOR);
+			
+			//Construimos un datagrama para enviar el mensaje al servidor
+			DatagramPacket peticion = new DatagramPacket(mensaje, mensajeStr.length(), hostServer, Constantes.PUERTO_DEL_SERVIDOR);
+			
+			//Enviamos el datagrama
+			socketUdp.send(peticion);
+			
+			//Construimos el DatagramPacket que contendra la respuesta del servidor
+			byte[] buffer = new byte[Constantes.buffer];
+			DatagramPacket respuesta = new DatagramPacket(buffer, buffer.length);
+			socketUdp.receive(respuesta);
+			
+			//Enviamos la respuesta del servidor a la salida por consola
+			System.out.println("Respuesta: " + new String(respuesta.getData()));
+			
+			//Cerramos el socket
+			socketUdp.close();
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package practica;
+
+import java.net.DatagramSocket;
+
+public class ClienteUdp {
+	
+	public static void main(String args[]) {
+		
+		try {
+			DatagramSocket socketUdp = new DatagramSocket();
+		}
+		
+	}
+
+}
